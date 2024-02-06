@@ -33,7 +33,7 @@ patchesStrategicMerge:
   - patches/patch-katib-ui-virtualservice.yaml
   - patches/patch-katib-mutatingwebhook.yaml
   - patches/patch-katib-validatingwebhook.yaml
-  - ../../nodeaffinity/nodeaffinity.yaml
+  - patches/nodeaffinity.yaml
 
   ## removals
   - patches/removals/mysql-resources.yaml
